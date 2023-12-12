@@ -77,10 +77,11 @@ int main() {
                         continue;
                     } else if (largeSideFloat < smallSideFloat) {
                         std::cout << "The small side cannot be";
-                        std::cout << " longer than the large side." << std::endl;
+                        std::cout << " longer than";
+                        std::cout << " the large side." << std::endl;
 
-                            // Repeats section of the loop
-                            continue;
+                        // Repeats section of the loop
+                        continue;
                     } else {
                         // Call function to find the answer
                         float calculatedArea =
